@@ -198,6 +198,13 @@ h3 { font-size: 1.25rem; font-weight: 700; }
 .ratio-4x3 { aspect-ratio: 4 / 3; }
 .ratio-16x9 { aspect-ratio: 16 / 9; }
 
+/* Imagens finais (substituem os slots) */
+.img-photo {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+}
+
 /* ---------- Header ---------- */
 .header {
   position: fixed;

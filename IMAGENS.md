@@ -6,19 +6,19 @@ Gere cada imagem com a IA de sua preferência (Midjourney, DALL-E, Ideogram, Flu
 
 ---
 
-## 1. `hero-app-mockup.png` — Hero (1600x1200, 4:3)
+## 1. ✅ `hero-app-mockup.jpg` — Hero (já gerada e aplicada)
 
 > 3D render of a floating smartphone and laptop displaying a modern salon management app interface, calendar view with colorful appointment blocks, clean white UI with cobalt blue (#3B82F6) accents, dark navy blue background with soft blue glow, abstract blurred UI labels with no readable text, premium tech product mockup style, high detail, studio lighting
 
 *Tradução: render 3D de um smartphone e um notebook flutuando exibindo a interface de um app moderno de gestão de salão, visão de calendário com blocos coloridos de agendamento, UI branca limpa com acentos azul-cobalto, fundo azul-marinho escuro com brilho azul suave, rótulos de UI abstratos e borrados sem texto legível, estilo mockup premium de produto.*
 
-## 2. `dor-caderninho.png` — Seção Dor/Solução (1200x900, 4:3)
+## 2. ✅ `dor-caderninho.jpg` — Seção Dor/Solução (já gerada e aplicada)
 
 > Photorealistic image of a stressed Brazilian salon owner at a reception desk, surrounded by a messy paper notebook, sticky notes and a calculator, salon interior in the background, warm natural lighting, shallow depth of field, candid editorial photography style, no readable text
 
 *Tradução: foto realista de uma dona de salão brasileira estressada na recepção, cercada por um caderno bagunçado, post-its e uma calculadora, interior do salão ao fundo, luz natural quente, profundidade de campo rasa, estilo fotografia editorial espontânea.*
 
-## 3. `agenda-online.png` — Destaque Agenda Online (1200x900, 4:3)
+## 3. ✅ `agenda-online.jpg` — Destaque Agenda Online (já gerada e aplicada)
 
 > Photorealistic image of a smiling young Brazilian woman sitting on a couch at home, booking a beauty appointment on her smartphone, soft cozy lighting, the phone screen shows an abstract blue and white booking app interface with no readable text, lifestyle photography, shallow depth of field
 
