@@ -24,7 +24,7 @@ Gere cada imagem com a IA de sua preferência (Midjourney, DALL-E, Ideogram, Flu
 
 *Tradução: foto realista de uma jovem brasileira sorrindo, sentada no sofá de casa, agendando um horário de beleza pelo celular, luz suave e aconchegante, tela do celular com interface abstrata azul e branca de app de agendamento sem texto legível, fotografia lifestyle.*
 
-## 4. ⚠️ `perfil-individual.png` — Card "Profissional individual" (800x600, 4:3) — REGERAR: o download veio com a cena da agenda online duplicada
+## 4. ✅ `perfil-individual.jpg` — Card "Profissional individual" (já gerada e aplicada)
 
 > Photorealistic image of a confident Brazilian nail designer working on a client's manicure in a small bright home studio, organized workspace with nail polish bottles, warm natural light, professional and welcoming atmosphere, editorial photography
 
