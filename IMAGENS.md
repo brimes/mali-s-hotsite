@@ -42,7 +42,7 @@ Gere cada imagem com a IA de sua preferência (Midjourney, DALL-E, Ideogram, Flu
 
 *Tradução: foto realista de uma empresária brasileira segurando um tablet, em frente à fachada de um salão moderno em uma rua comercial, o tablet mostra um dashboard azul abstrato com gráficos e sem texto legível, postura confiante, luz do dia.*
 
-## 7. `og-cover.png` — Open Graph / compartilhamento (1200x630)
+## 7. ✅ `og-cover.jpg` — Open Graph / compartilhamento (já gerada e aplicada)
 
 > Wide marketing banner background, dark navy blue gradient with a large glowing cobalt blue letter M shape on the right side, floating smartphone showing an abstract calendar app interface, subtle geometric grid pattern, premium SaaS landing page aesthetic, empty space on the left for text overlay, no readable text
 
