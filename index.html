@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mali Space — Menos burocracia, mais controle para o seu salão</title>
+  <meta name="description" content="Sistema de gestão para salões, barbearias e espaços de beleza. Agenda online para clientes, fluxo de caixa automático e comissões sem dor de cabeça. A partir de R$ 20/mês.">
+  <meta name="theme-color" content="#3B82F6">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Mali Space">
+  <meta property="og:title" content="Mali Space — Menos burocracia, mais controle para o seu salão">
+  <meta property="og:description" content="Agenda online, fluxo de caixa e comissões automáticas para espaços de beleza. A partir de R$ 20/mês.">
+  <!-- Ajustar para a URL absoluta do hotsite quando o domínio for definido -->
+  <meta property="og:image" content="https://mali-s.com/assets/img/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Mali Space",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "description": "Sistema de gestão para salões, barbearias e espaços de beleza: agenda online, fluxo de caixa e comissões automáticas.",
+    "inLanguage": "pt-BR",
+    "offers": [
+      { "@type": "Offer", "name": "Individual", "price": "20.00", "priceCurrency": "BRL" },
+      { "@type": "Offer", "name": "Loja única", "price": "40.00", "priceCurrency": "BRL" },
+      { "@type": "Offer", "name": "Grupo / Rede", "price": "35.00", "priceCurrency": "BRL" }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="header__brand" aria-label="Mali Space — início">
+        <img src="assets/img/mali-space-logo.png" alt="" width="40" height="40" class="header__logo">
+        <span class="header__wordmark">Mali Space</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <a href="#funcionalidades" class="nav__link">Funcionalidades</a>
+        <a href="#agenda-online" class="nav__link">Agenda online</a>
+        <a href="#para-quem" class="nav__link">Para quem é</a>
+        <a href="#planos" class="nav__link">Planos</a>
+        <a href="https://app.mali-s.com/login" class="btn btn--ghost nav__cta">Entrar</a>
+      </nav>
+
+      <a href="https://app.mali-s.com/login" class="btn btn--ghost header__login">Entrar</a>
+
+      <button class="header__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
+        <svg class="icon icon--menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+        <svg class="icon icon--close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__badge">Gestão para salões, barbearias e espaços de beleza</p>
+          <h1 class="hero__title"><span class="text-primary">Menos</span> trabalho burocrático. <span class="text-primary">Mais</span> controle do seu negócio.</h1>
+          <p class="hero__subtitle">O Mali Space cuida da agenda, do caixa e das comissões do seu espaço de beleza — para você cuidar do que realmente importa: seus clientes.</p>
+          <div class="hero__actions">
+            <a href="https://app.mali-s.com/login" class="btn btn--primary btn--lg">Começar agora</a>
+            <a href="#planos" class="btn btn--ghost btn--lg">Ver planos</a>
+          </div>
+          <p class="hero__microcopy">A partir de R$ 20/mês &middot; Sem fidelidade &middot; Funciona no celular</p>
+        </div>
+
+        <!-- Slot de imagem IA: trocar a div por
+             <img src="assets/img/hero-app-mockup.png" alt="Telas do Mali Space em um celular e um notebook mostrando a agenda do salão" width="800" height="600" loading="eager">
+             quando a imagem for gerada (ver IMAGENS.md) -->
+        <div class="img-slot ratio-4x3 hero__image" data-img="hero-app-mockup.png">
+          <svg class="img-slot__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/></svg>
+          <span>hero-app-mockup.png</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DOR / SOLUÇÃO ============ -->
+    <section class="section pain">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Chega de caderninho, planilha e WhatsApp lotado</h2>
+          <p>Você abriu seu espaço para fazer o que ama — não para passar o dia anotando horário, somando comissão na calculadora e respondendo &ldquo;tem horário amanhã?&rdquo;.</p>
+        </div>
+
+        <div class="pain__grid">
+          <!-- Slot de imagem IA: trocar por
+               <img src="assets/img/dor-caderninho.png" alt="Dona de salão sobrecarregada anotando horários em um caderno de papel" width="600" height="450" loading="lazy"> -->
+          <div class="img-slot ratio-4x3 reveal" data-img="dor-caderninho.png">
+            <svg class="img-slot__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/></svg>
+            <span>dor-caderninho.png</span>
+          </div>
+
+          <ul class="pain__list">
+            <li class="pain__item reveal">
+              <div class="pain__before">
+                <svg class="icon icon--x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+                <p><strong>Agenda no papel ou no WhatsApp.</strong> Horário duplicado, cliente esquecido, recado perdido.</p>
+              </div>
+              <div class="pain__after">
+                <svg class="icon icon--check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <p><strong>O cliente agenda sozinho pelo seu link,</strong> vendo apenas os horários realmente livres de cada profissional.</p>
+              </div>
+            </li>
+            <li class="pain__item reveal">
+              <div class="pain__before">
+                <svg class="icon icon--x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+                <p><strong>Fim do mês sem saber se sobrou dinheiro.</strong> Notinha pra todo lado e conta que nunca fecha.</p>
+              </div>
+              <div class="pain__after">
+                <svg class="icon icon--check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <p><strong>Entradas, saídas e lucro calculados automaticamente,</strong> com filtro por período e forma de pagamento.</p>
+              </div>
+            </li>
+            <li class="pain__item reveal">
+              <div class="pain__before">
+                <svg class="icon icon--x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+                <p><strong>Comissão na calculadora (e na discussão).</strong> Cada acerto de fim de mês vira uma negociação.</p>
+              </div>
+              <div class="pain__after">
+                <svg class="icon icon--check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <p><strong>Percentual ou aluguel de cadeira:</strong> o sistema calcula tudo e cada profissional acompanha o próprio extrato.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FUNCIONALIDADES ============ -->
+    <section class="section section--gray" id="funcionalidades">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Tudo o que o seu espaço precisa, em um só lugar</h2>
+          <p>Funcionalidades pensadas para o dia a dia de salões, barbearias, esmalterias, estúdios de depilação e profissionais autônomos.</p>
+        </div>
+
+        <div class="features">
+          <article class="feature reveal">
+            <span class="feature__icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="m9 16 2 2 4-4"/></svg>
+            </span>
+            <h3>Agenda online 24h</h3>
+            <p>Compartilhe seu link de agendamento e deixe o cliente escolher profissional, serviço e horário sozinho. Sem ligações, sem vai e vem no WhatsApp.</p>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/><path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/><path d="M18 12a2 2 0 0 0 0 4h4v-4Z"/></svg>
+            </span>
+            <h3>Fluxo de caixa automático</h3>
+            <p>Toda entrada e saída registrada. Veja o lucro do dia, da semana ou do mês, filtrando por dinheiro, cartão ou PIX.</p>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </span>
+            <h3>Comissões sem dor de cabeça</h3>
+            <p>Trabalhe com percentual ou aluguel de cadeira. O Mali Space calcula sozinho e gera o extrato de cada profissional.</p>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8"/><path d="M4 16s.5-1 2-1 2.5 2 4 2 2.5-2 4-2 2.5 2 4 2 2-1 2-1"/><path d="M2 21h20"/><path d="M7 8v3"/><path d="M12 8v3"/><path d="M17 8v3"/><path d="M7 4h.01"/><path d="M12 4h.01"/><path d="M17 4h.01"/></svg>
+            </span>
+            <h3>Aniversariantes do mês</h3>
+            <p>Lista automática de clientes aniversariantes e mensagem pronta para enviar pelo WhatsApp. Cliente lembrado é cliente que volta.</p>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg>
+            </span>
+            <h3>Despesas recorrentes</h3>
+            <p>Aluguel, internet, produtos: cadastre uma vez e o sistema lança automaticamente todo mês, sem você precisar lembrar.</p>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"/><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"/><path d="M2 7h20"/><path d="M22 7v3a2 2 0 0 1-2 2a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12a2 2 0 0 1-2-2V7"/></svg>
+            </span>
+            <h3>Gestão multi-loja</h3>
+            <p>Tem mais de uma unidade? Administre todas em um só lugar, com os dados de cada loja separados e seguros.</p>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+            </span>
+            <h3>App no seu celular</h3>
+            <p>Instale o Mali Space como aplicativo e use até sem internet. Direto do navegador, sem loja de apps.</p>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 17.5v-11"/></svg>
+            </span>
+            <h3>Comprovante digital</h3>
+            <p>Envie pelo WhatsApp um comprovante elegante de cada atendimento. Profissionalismo que fideliza.</p>
+          </article>
+        </div>
+
+        <p class="features__footer reveal">E mais: importe sua lista de clientes em massa (CSV) e migre do caderninho para o Mali Space em minutos.</p>
+      </div>
+    </section>
+
+    <!-- ============ DESTAQUE AGENDA ONLINE ============ -->
+    <section class="section highlight" id="agenda-online">
+      <div class="container highlight__inner">
+        <div class="highlight__content reveal">
+          <h2>Seu espaço aberto para agendamentos 24 horas por dia</h2>
+          <p>Enquanto você atende — ou descansa — sua agenda continua trabalhando. Seus clientes acessam seu link exclusivo, escolhem o serviço, o profissional e o horário disponível de verdade. Você só recebe a confirmação.</p>
+          <ul class="highlight__list">
+            <li>
+              <svg class="icon icon--check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Link exclusivo do seu espaço para divulgar no Instagram e no WhatsApp
+            </li>
+            <li>
+              <svg class="icon icon--check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Disponibilidade real: cada profissional com seus próprios horários
+            </li>
+            <li>
+              <svg class="icon icon--check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Agendamento confirmado na hora, direto na sua agenda
+            </li>
+            <li>
+              <svg class="icon icon--check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Menos tempo respondendo mensagem, mais tempo atendendo
+            </li>
+          </ul>
+          <a href="https://app.mali-s.com/login" class="btn btn--primary btn--lg">Quero minha agenda online</a>
+        </div>
+
+        <!-- Slot de imagem IA: trocar por
+             <img src="assets/img/agenda-online.png" alt="Cliente sorrindo enquanto agenda um horário pelo celular" width="600" height="450" loading="lazy"> -->
+        <div class="img-slot ratio-4x3 reveal" data-img="agenda-online.png">
+          <svg class="img-slot__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/></svg>
+          <span>agenda-online.png</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PARA QUEM É ============ -->
+    <section class="section section--gray" id="para-quem">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Feito para o seu momento</h2>
+          <p>Do profissional autônomo à rede de lojas: o Mali Space cresce junto com o seu negócio.</p>
+        </div>
+
+        <div class="profiles">
+          <article class="profile reveal">
+            <!-- Slot de imagem IA: trocar por
+                 <img src="assets/img/perfil-individual.png" alt="Manicure autônoma atendendo cliente em seu estúdio" width="400" height="300" loading="lazy"> -->
+            <div class="img-slot ratio-4x3 profile__image" data-img="perfil-individual.png">
+              <svg class="img-slot__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/></svg>
+              <span>perfil-individual.png</span>
+            </div>
+            <div class="profile__body">
+              <h3>Profissional individual</h3>
+              <p>Manicure, barbeiro, esteticista, lash designer. Sua agenda organizada e seus ganhos na palma da mão, com cara de negócio grande desde o primeiro cliente.</p>
+              <span class="profile__price">A partir de R$ 20/mês</span>
+            </div>
+          </article>
+
+          <article class="profile reveal">
+            <!-- Slot de imagem IA: trocar por
+                 <img src="assets/img/perfil-salao.png" alt="Equipe de um salão moderno atendendo clientes" width="400" height="300" loading="lazy"> -->
+            <div class="img-slot ratio-4x3 profile__image" data-img="perfil-salao.png">
+              <svg class="img-slot__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/></svg>
+              <span>perfil-salao.png</span>
+            </div>
+            <div class="profile__body">
+              <h3>Salão ou barbearia</h3>
+              <p>Espaços com equipe e parceiros. Agenda de todos os profissionais, caixa e comissões em um só sistema. Menos planilha, mais cadeira ocupada.</p>
+              <span class="profile__price">R$ 40/mês</span>
+            </div>
+          </article>
+
+          <article class="profile reveal">
+            <!-- Slot de imagem IA: trocar por
+                 <img src="assets/img/perfil-rede.png" alt="Gestora de rede de salões acompanhando as lojas pelo tablet" width="400" height="300" loading="lazy"> -->
+            <div class="img-slot ratio-4x3 profile__image" data-img="perfil-rede.png">
+              <svg class="img-slot__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/></svg>
+              <span>perfil-rede.png</span>
+            </div>
+            <div class="profile__body">
+              <h3>Rede de lojas</h3>
+              <p>Grupos com duas ou mais unidades. Administre tudo com um só acesso, mantendo os dados de cada loja isolados e organizados.</p>
+              <span class="profile__price">R$ 35/loja/mês</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PLANOS ============ -->
+    <section class="section section--dark" id="planos">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Planos simples, preço justo</h2>
+          <p>Sem taxa de adesão, sem fidelidade, sem surpresa. Comece hoje e cancele quando quiser.</p>
+        </div>
+
+        <div class="pricing">
+          <article class="price-card reveal">
+            <h3>Individual</h3>
+            <p class="price-card__desc">Para quem trabalha sozinho</p>
+            <p class="price-card__price"><span class="price-card__currency">R$</span>20<span class="price-card__period">/mês</span></p>
+            <ul class="price-card__list">
+              <li>Agenda online com link exclusivo</li>
+              <li>Fluxo de caixa completo</li>
+              <li>Clientes ilimitados</li>
+              <li>Comprovante digital via WhatsApp</li>
+              <li>App instalável no celular</li>
+            </ul>
+            <a href="https://app.mali-s.com/login" class="btn btn--outline">Começar agora</a>
+          </article>
+
+          <article class="price-card price-card--featured reveal">
+            <span class="price-card__badge">Mais popular</span>
+            <h3>Loja única</h3>
+            <p class="price-card__desc">Para salões e barbearias com equipe</p>
+            <p class="price-card__price"><span class="price-card__currency">R$</span>40<span class="price-card__period">/mês</span></p>
+            <ul class="price-card__list">
+              <li>Tudo do plano Individual</li>
+              <li>Profissionais e parceiros ilimitados</li>
+              <li>Comissões por % ou aluguel de cadeira</li>
+              <li>Despesas recorrentes automáticas</li>
+              <li>Aniversariantes + mensagem WhatsApp</li>
+              <li>Importação de clientes em massa (CSV)</li>
+            </ul>
+            <a href="https://app.mali-s.com/login" class="btn btn--primary">Começar agora</a>
+          </article>
+
+          <article class="price-card reveal">
+            <h3>Grupo / Rede</h3>
+            <p class="price-card__desc">Para redes com 2 ou mais lojas</p>
+            <p class="price-card__price"><span class="price-card__currency">R$</span>35<span class="price-card__period">/loja/mês</span></p>
+            <ul class="price-card__list">
+              <li>Tudo do plano Loja única</li>
+              <li>Gestão centralizada do grupo</li>
+              <li>Dados isolados por loja</li>
+              <li>Um acesso para administrar tudo</li>
+              <li>Ideal para franquias e filiais</li>
+            </ul>
+            <p class="price-card__note">Mínimo de 2 lojas</p>
+            <a href="https://app.mali-s.com/login" class="btn btn--outline">Começar agora</a>
+          </article>
+        </div>
+
+        <p class="pricing__footer reveal">Todos os planos incluem suporte e atualizações. Valores do plano mensal.</p>
+      </div>
+    </section>
+
+    <!-- ============ CTA FINAL ============ -->
+    <section class="section cta">
+      <div class="container cta__inner reveal">
+        <h2>Pronto para ter menos burocracia e mais controle?</h2>
+        <p>Junte-se aos espaços de beleza que trocaram o caderninho pelo Mali Space. Em poucos minutos, sua agenda online está no ar.</p>
+        <a href="https://app.mali-s.com/login" class="btn btn--white btn--lg">Começar agora</a>
+        <p class="cta__microcopy">A partir de R$ 20/mês &middot; Cancele quando quiser</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/img/mali-space-logo.png" alt="" width="32" height="32" class="footer__logo">
+        <p>Mali Space — gestão simples para espaços de beleza.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Links do rodapé">
+        <a href="#funcionalidades">Funcionalidades</a>
+        <a href="#agenda-online">Agenda online</a>
+        <a href="#para-quem">Para quem é</a>
+        <a href="#planos">Planos</a>
+        <a href="https://app.mali-s.com/login">Entrar</a>
+      </nav>
+    </div>
+    <div class="container footer__copy">
+      <p>&copy; 2026 Mali Space. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
