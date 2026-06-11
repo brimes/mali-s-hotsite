@@ -36,7 +36,7 @@ Gere cada imagem com a IA de sua preferência (Midjourney, DALL-E, Ideogram, Flu
 
 *Tradução: foto realista do interior de um salão de beleza brasileiro moderno com uma pequena equipe de cabeleireiros e barbeiros atendendo clientes, espelhos e cadeiras, espaço claro e limpo com detalhes decorativos azuis sutis, atmosfera profissional animada, plano aberto.*
 
-## 6. `perfil-rede.png` — Card "Rede de lojas" (800x600, 4:3)
+## 6. ✅ `perfil-rede.jpg` — Card "Rede de lojas" (já gerada e aplicada)
 
 > Photorealistic image of a Brazilian businesswoman holding a tablet, standing in front of a modern beauty salon storefront on a commercial street, the tablet shows an abstract blue dashboard with charts and no readable text, confident posture, daylight, editorial photography
 
