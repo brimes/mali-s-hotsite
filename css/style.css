@@ -480,6 +480,10 @@ h3 { font-size: 1.25rem; font-weight: 700; }
 
 .profile__image {
   border-radius: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
 }
 
 .profile__body {

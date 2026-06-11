@@ -24,13 +24,13 @@ Gere cada imagem com a IA de sua preferência (Midjourney, DALL-E, Ideogram, Flu
 
 *Tradução: foto realista de uma jovem brasileira sorrindo, sentada no sofá de casa, agendando um horário de beleza pelo celular, luz suave e aconchegante, tela do celular com interface abstrata azul e branca de app de agendamento sem texto legível, fotografia lifestyle.*
 
-## 4. `perfil-individual.png` — Card "Profissional individual" (800x600, 4:3)
+## 4. ✅ `perfil-individual.jpg` — Card "Profissional individual" (já gerada e aplicada)
 
 > Photorealistic image of a confident Brazilian nail designer working on a client's manicure in a small bright home studio, organized workspace with nail polish bottles, warm natural light, professional and welcoming atmosphere, editorial photography
 
 *Tradução: foto realista de uma nail designer brasileira confiante fazendo a manicure de uma cliente em um pequeno estúdio iluminado, espaço organizado com vidros de esmalte, luz natural quente, atmosfera profissional e acolhedora.*
 
-## 5. `perfil-salao.png` — Card "Salão ou barbearia" (800x600, 4:3)
+## 5. ✅ `perfil-salao.jpg` — Card "Salão ou barbearia" (já gerada e aplicada)
 
 > Photorealistic image of a modern Brazilian beauty salon interior with a small team of hairdressers and barbers attending clients, mirrors and styling chairs, bright and clean space with subtle blue decor accents, lively professional atmosphere, editorial photography, wide shot
 
