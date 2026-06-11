@@ -48,4 +48,4 @@ Gere cada imagem com a IA de sua preferência (Midjourney, DALL-E, Ideogram, Flu
 
 *Tradução: fundo de banner de marketing largo, gradiente azul-marinho escuro com uma grande letra M azul-cobalto brilhante à direita, smartphone flutuante mostrando interface abstrata de calendário, padrão geométrico sutil, estética premium de SaaS, espaço vazio à esquerda para sobrepor texto.*
 
-**Dica:** sobreponha manualmente (Canva/Figma/editor) o logo e a frase "Menos burocracia. Mais controle." no espaço à esquerda — IA não gera texto confiável. Esta imagem só aparece quando o link do site é compartilhado (WhatsApp, redes sociais); a meta tag `og:image` no `index.html` precisa da URL absoluta final quando o domínio for definido.
+**Dica:** sobreponha manualmente (Canva/Figma/editor) o logo e a frase "Menos trabalho manual. Mais controle." no espaço à esquerda — IA não gera texto confiável. Esta imagem só aparece quando o link do site é compartilhado (WhatsApp, redes sociais); a meta tag `og:image` no `index.html` precisa da URL absoluta final quando o domínio for definido.
