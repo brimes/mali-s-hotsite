@@ -681,6 +681,30 @@ h3 { font-size: 1.25rem; font-weight: 700; }
   color: var(--primary);
 }
 
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer__contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__contact-link:hover {
+  color: var(--primary);
+}
+
+.footer__contact-icon {
+  flex-shrink: 0;
+}
+
+.footer__contact-icon--whatsapp {
+  color: #25D366;
+}
+
 .footer__copy {
   margin-top: 32px;
   padding-top: 24px;
@@ -762,6 +786,18 @@ h3 { font-size: 1.25rem; font-weight: 700; }
   .price-card--featured {
     padding-top: 44px;
     padding-bottom: 44px;
+  }
+
+  .footer__inner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 48px;
+  }
+
+  .footer__nav {
+    flex-direction: column;
+    gap: 12px;
   }
 }
 
